@@ -1,4 +1,4 @@
-# formacao-java-alura
+# Formação Java - Alura
 Anotações do curso de formação Java feito no Alura.
 Somente o objeto muda os atributos deste mesmo objeto, fica a dica.
 
