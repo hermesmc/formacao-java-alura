@@ -171,12 +171,12 @@ https://docs.oracle.com/javase/8/docs/api/
    Classes anônimas: são classes que, ao invés de serem declaras para fazerem coisas triviais, são construídas no próprio new.
    Exempo:
    
-   Consumer<String> consumidor = new Consumer<String>() {
- 	@Override
-	public void accept(String s) {
-		System.out.println(s);				
-	}
-   };
+   	Consumer<String> consumidor = new Consumer<String>() {
+ 		@Override
+		public void accept(String s) {
+			System.out.println(s);				
+		}
+   	};
    
    
    
