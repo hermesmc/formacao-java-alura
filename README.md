@@ -168,7 +168,8 @@ https://docs.oracle.com/javase/8/docs/api/
 
    ## Java 8
    
-   Classes anônimas: são classes que, ao invés de serem declaras para fazerem coisas triviais, são construídas no próprio new.
+   Classes anônimas: são classes que, ao invés de serem declaras para fazerem coisas triviais e, principalmente, quando a classe não for aproveitada em outro lugar no código.
+   São construídas no próprio new.
    Exempo:
    
    	Consumer<String> consumidor = new Consumer<String>() {
