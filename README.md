@@ -179,5 +179,12 @@ https://docs.oracle.com/javase/8/docs/api/
 		}
    	};
    
+     Lambdas: 
    
-   
+	palavras.forEach((String s) -> {
+		System.out.println(s);		
+	});
+	
+      Lambda mais simples ainda
+      
+	palavras.forEach(s -> System.out.println(s));	
