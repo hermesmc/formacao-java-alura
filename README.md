@@ -188,3 +188,15 @@ https://docs.oracle.com/javase/8/docs/api/
       Lambda mais simples ainda
       
 	palavras.forEach(s -> System.out.println(s));	
+	
+    Metodo Referência - Method References
+    
+    Exemplos:
+    
+	palavras.sort((Comparator.comparing(s -> s.length())));
+	System.out.println(palavras);
+
+    OU 
+	
+	palavras.sort((Comparator.comparing(String::length)));
+	System.out.println(palavras);	
