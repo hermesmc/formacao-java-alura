@@ -170,7 +170,7 @@ https://docs.oracle.com/javase/8/docs/api/
    
    Classes anônimas: são classes que, ao invés de serem declaras para fazerem coisas triviais e, principalmente, quando a classe não for aproveitada em outro lugar no código, são construídas no próprio new.
    
-   Exempo:
+  Exempo:
    
    	Consumer<String> consumidor = new Consumer<String>() {
  		@Override
@@ -179,24 +179,24 @@ https://docs.oracle.com/javase/8/docs/api/
 		}
    	};
    
-     Lambdas: 
+  Lambdas: 
    
 	palavras.forEach((String s) -> {
 		System.out.println(s);		
 	});
 	
-      Lambda mais simples ainda
+  Lambda mais simples ainda
       
 	palavras.forEach(s -> System.out.println(s));	
 	
-    Metodo Referência - Method References
+  Metodo Referência - Method References
     
-    Exemplos:
+  Exemplos:
     
 	palavras.sort((Comparator.comparing(s -> s.length())));
 	System.out.println(palavras);
 
-    OU 
+  OU 
 	
 	palavras.sort((Comparator.comparing(String::length)));
 	System.out.println(palavras);	
