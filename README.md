@@ -200,3 +200,8 @@ https://docs.oracle.com/javase/8/docs/api/
 	
 	palavras.sort((Comparator.comparing(String::length)));
 	System.out.println(palavras);	
+
+  OU
+  
+	Consumer<String> impressor = System.out::println;
+	palavras.forEach(impressor);   
