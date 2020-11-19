@@ -205,3 +205,29 @@ https://docs.oracle.com/javase/8/docs/api/
   
 	Consumer<String> impressor = System.out::println;
 	palavras.forEach(impressor);   
+
+
+## Utilizando datas
+
+Utiizando a novas API de datas com alguns exemplos:
+
+Data atual
+	
+	LocalDate hoje = LocalDate.now(); 
+	
+Data específica:
+
+	LocalDate dataEspecifica = LocalDate.of(2016, 07, 01);
+
+Formatando datas
+
+	DateTimeFormatter dataFormatada = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+	System.out.println(olimpiadas.format(dataFormatada));
+	
+Data e hora atual(formatando data e hora):
+
+	LocalDateTime agora = LocalDateTime.now();
+	DateTimeFormatter dataFormatadaComHoras = DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm");
+	System.out.println(agora.format(dataFormatadaComHoras));
+
+
