@@ -206,6 +206,11 @@ https://docs.oracle.com/javase/8/docs/api/
 	Consumer<String> impressor = System.out::println;
 	palavras.forEach(impressor);   
 
+## Design Pattern
+
+Os Design Patterns, também conhecidos como Padrões de Projeto, foram criados pelo arquiteto Christopher Alexander, na década de 70. Durante esse período o arquiteto escreveu dois livros: “Pattern Language” e “Timeless Way of Building”. Esses livros foram o exemplo de como Christopher pensava no modo para documentar esses padrões.
+
+O objetivo dos padrões de projeto, são tornar componentes reutilizáveis que facilitam a padronização, que permita agilidade para as soluções de problemas recorrentes no desenvolvimento do sistema.
 
 ## Utilizando datas
 
